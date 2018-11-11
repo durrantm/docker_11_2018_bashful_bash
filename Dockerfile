@@ -1,6 +1,6 @@
 FROM alpine:latest
 LABEL maintainer="Michael Durrant<junk@snap2web.com>"
-RUN apk add bash git vim
+RUN apk add bash git vim ruby ruby-irb
 COPY alpine_bashrc /root/.bashrc
 COPY .bash_functions.sh /root
 COPY .bash_aliases /root

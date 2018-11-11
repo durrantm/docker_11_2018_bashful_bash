@@ -49,11 +49,10 @@ alias cprv='cp -rv'
 alias lsd='ls -Fd .*'
 alias lsd1='ls -d1 '
 alias ldl='ls -d1'
-alias play='cd ~/play/'
 alias please='sudo $(history -p !!)'
-alias grep='grep --color=auto'
-alias egrep='egrep --color=auto'
-alias fgrep='fgrep --color=auto'
+#alias grep='grep --color=auto'
+#alias egrep='egrep --color=auto'
+#alias fgrep='fgrep --color=auto'
 # Rails
 alias rc='rails console'
 alias rs='rails server'
@@ -62,7 +61,6 @@ alias bers='bundle exec rails server'
 # DropBox - syncd
 alias work="cd $WORKBASE"
 # DropNot - NOT syncd !
-alias lnk="cd $WORKBASE_GIT/webs/rails_apps/linker"
 # git - general commands.  For other commands that need a branch name, use
 #       your ~/.gitconfig file as git aliases allow branch name tab completion
 alias gcom='git checkout master'
@@ -91,8 +89,5 @@ alias gfrm='git fetch; git reset --hard origin/master'
 # tmux
 alias tn='tmux set -g mode-mouse on'
 alias tf='tmux set -g mode-mouse off'
-# everquote
-alias se="cd ~/eq/selenium_IDE"
-alias eq="cd ~/eq/"
 # git aliases
 git config --global alias.comit 'commit -v'
